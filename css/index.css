@@ -1,0 +1,176 @@
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #FFF6ED;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.logo  a{
+    float: left;
+    color: #955E4C;
+    text-align: left;
+    font-family: "lato";
+    font-style: italic;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.topnav a {
+    float: right;
+    color: #B5806F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Change the color of the links on hover */
+.topnav a:hover {
+    background-color: #FFF6ED;
+    color: #955E4C;
+    text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FFF6ED;
+    color: #B5806F;
+}
+
+
+
+/* main content */
+
+.separator {
+    width: 1290px;
+    height: 490px;
+    padding-left: 15%;
+    padding-top: 5%;
+    flex-shrink: 0;
+}
+.right {
+    float: right;
+    padding-left: 10%;
+    height: 400px;
+    width: 400;
+}
+
+h1 {
+    font-size: 45px;
+    color:#B5806F;
+    font-family: "lato";
+    font-size: 54px;
+    font-weight:bolder;
+}
+
+h2 {
+    color:#926659;
+    text-align: left;
+    font-family:'lato';
+    font: 25px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:lighter;
+    line-height: normal;
+}
+
+.bio {
+    text-align: left/right;
+    word-break: normal;
+    text-overflow: ellipsis;
+    color:#926659;
+    font-weight: lighter;
+}
+
+
+
+/* portfolio */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF6ED;
+    padding: 20px;
+    font-family: Arial;
+}
+/* Center website */
+.main {
+    float: center;
+    max-width: 1000px;
+    margin: auto;
+    color:#B5806F
+}
+
+h1 {
+    font-size: 45px;
+    word-break: break-all;
+    color:#B5806F
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end:auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h2 {
+    display: block;
+    text-align: left;
+    font: size 0.9em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    word-break: break-all;
+    color:#926659
+}
+/* portfolio Gallery grid */
+
+
+.row {
+    margin: 8px -14px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 16px;
+}
+
+/* create four equal columns that floats next to each other */
+.column {
+    float: left;
+    position: relative;
+    width: 25%;
+}
+
+/* clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+    max-width: auto;
+}
